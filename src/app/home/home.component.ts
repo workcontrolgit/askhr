@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
 
     this.message = new Message('', 'assets/images/user.png');
     this.messages = [
-      new Message('Welcome to Ask HR chatot', 'assets/images/bot.png', new Date())
+      new Message('Welcome to Ask HR chatbot', 'assets/images/bot.png', new Date())
     ];
 
   }
