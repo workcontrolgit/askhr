@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
+import * as moment from 'moment';
 
 export interface Credentials {
   // Customize received credentials here
@@ -38,6 +39,7 @@ export class AuthenticationService {
    */
   login(context: LoginContext): Observable<Credentials> {
     // Replace by proper authentication call
+
     const data = {
       username: context.username,
       token: '123456'
