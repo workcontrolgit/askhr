@@ -8,16 +8,15 @@ import { Message } from '@app/models';
 })
 export class HomeComponent implements OnInit {
 
-  quote: string;
   isLoading: boolean;
   public message: Message;
   public messages: Message[];
 
   constructor() {
 
-    this.message = new Message('', 'assets/images/user.png');
+    this.message = new Message('', 'fas fa-user-circle text-info');
     this.messages = [
-      new Message('Welcome to Ask HR chatbot', 'assets/images/bot.png', new Date())
+      new Message('Welcome to AskHR chatbot', 'fas fa-robot text-success', new Date())
     ];
 
   }

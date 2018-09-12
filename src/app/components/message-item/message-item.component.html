@@ -1,9 +1,10 @@
-<li class="list-group-item">
-  <img [src]="message.avatar" class="avatar"/>
-  <div class="message">
-    {{message.content}}
-  </div>
-  <div class="timeform">
-    <i class="fa fa-clock-o" aria-hidden="true"></i> <span class="timestamp">at {{message.timestamp | date : 'dd/MM/yyyy' }}</span>
-  </div>
-</li>
+<div class="list-group-item">
+    <div class="d-flex w-100 justify-content-between">
+    <i [class]="message.avatar"></i>
+      <!-- <img [src]="message.avatar" class="avatar"/> -->
+      <small><i class="far fa-clock" aria-hidden="true"></i> {{message.timestamp | date : 'short' }}</small>
+    </div>
+  <p class="mb-1">{{message.content}}</p>
+</div>
+
+
