@@ -27,7 +27,7 @@
               "src/apple-touch-icon.png",
               "src/robots.txt",
               "src/manifest.json",
-              "web.config",
+              "src/web.config",
               "src/assets"
             ],
             "styles": [
@@ -89,7 +89,7 @@
               "src/apple-touch-icon.png",
               "src/robots.txt",
               "src/manifest.json",
-              "web.config",
+              "src/web.config",
               "src/assets"
             ]
           }
